@@ -1,4 +1,4 @@
-import { useRoomQuestions } from "@/http/useRoomQuestions";
+import { useRoomQuestions } from "@/http/use-room-questions";
 import { QuestionItem } from "./question-item";
 
 interface QuestionListProps {
