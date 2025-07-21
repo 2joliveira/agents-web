@@ -1,6 +1,9 @@
 # NLW Agents
 
-Projeto desenvolvido durante um evento da Rocketseat para demonstrar o uso de agentes inteligentes na web.
+Este aplicativo web permite o envio de áudios que são automaticamente transcritos, armazenados em um banco de dados e utilizados para responder perguntas dos usuários com base no conteúdo desses áudios. A aplicação foi desenvolvida durante o NLW Agents da Rocketseat, com foco em inteligência artificial generativa e agentes autônomos.
+
+O sistema utiliza a API do Gemini AI, que interpreta a pergunta enviada pelo usuário, realiza buscas semânticas nos textos transcritos com auxílio de embeddings, e retorna respostas precisas baseadas nas informações dos áudios.
+
 
 ## 🚀 Tecnologias
 
@@ -22,6 +25,41 @@ Projeto desenvolvido durante um evento da Rocketseat para demonstrar o uso de ag
 - **Variant-based Components** - Componentes com variantes usando CVA
 - **Composition Pattern** - Padrão de composição com Radix Slot
 - **Path Aliasing** - Alias de caminhos (`@/` aponta para `src/`)
+
+## Funcionalidades
+
+### 🖥️ Front-end
+
+- Interface para envio de áudios
+
+- Visualização das salas e perguntas/respostas
+
+- Envio de perguntas para a API
+
+- Feedback visual durante upload e resposta
+
+- Comunicação com a API para gerenciar salas, transcrições e respostas
+
+### 🧠 Back-end
+- Upload e armazenamento dos áudios
+
+- Transcrição automática dos áudios
+
+- Armazenamento das transcrições no banco de dados
+
+- Organização dos dados por salas (rooms)
+
+- Criação e listagem de perguntas
+
+- Geração de respostas baseadas nas transcrições utilizando Gemini
+
+- Busca semântica com embeddings
+
+- Validação de dados com Zod
+
+- Integração com Drizzle ORM para operações seguras no banco de dados
+
+- Validação centralizada das variáveis de ambiente
 
 ## ⚙️ Configuração do Projeto
 
