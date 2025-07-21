@@ -26,7 +26,7 @@ O sistema utiliza a API do Gemini AI, que interpreta a pergunta enviada pelo usu
 - **Composition Pattern** - Padrão de composição com Radix Slot
 - **Path Aliasing** - Alias de caminhos (`@/` aponta para `src/`)
 
-## Funcionalidades
+## ✅ Funcionalidades
 
 ### 🖥️ Front-end
 
